@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/product/register',[ProductController::cass,'register'])->name('product/register');
+Route::get('/product/register',[ProductController::class,'register'])->name('product/register');
 Route::post ('Product.register',[ProductController,'store']);
